@@ -1,0 +1,12 @@
+li{
+    background-color: #000;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+div:hover{
+    transform: scaley(1.5);
+}
