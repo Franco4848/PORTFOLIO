@@ -10,13 +10,15 @@
     }
 } */
 
-
 body {
     background: linear-gradient(to right, #f2f2f2, #e6f7f7);
     margin: 0;
     font-family: 'Sarabun';
 }
-
+.box{
+    width: 100%;
+    height: 100vh;
+}
 .conteiner {
     display: flex;
     justify-content: space-between;
@@ -24,6 +26,7 @@ body {
     margin: auto;
     padding: 50px;
     width: 90%;
+
 }
 
 .text--conteiner {
@@ -102,6 +105,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 30px;
     transition: color 0.3s ease;
 }
 .downloadcv:hover .bx-download{
@@ -150,12 +154,11 @@ h3{
     display: flex;
     background-color: #336666;
     padding: 20px;
-    width: auto;
+    width: 300px;
     margin: auto;
     border: none;
     border-radius: 10px;
     margin-top: 50px;
-
+    
 }
-
 
