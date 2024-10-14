@@ -1,0 +1,45 @@
+.box--myprojects{
+    position: relative;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #00494d 30%, #292E5E 100%);
+    color: #FFF;
+}
+.title--myprojects{
+    text-align: center;
+    padding: 20px;
+}
+.conteiner--myprojects{
+    display: flex;
+    margin: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+}
+.myproject{
+    margin: auto;
+    width: 600px;
+    border: 3px solid #000;
+    padding: 20px;
+    align-items: center;
+    background-color: #3f3f3f;
+}
+
+.projectName{
+    text-align: center;
+
+}
+.img--myproject{
+    background-color: #000;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+.tecnologies{
+
+}
+
+.projectDescription{
+
+}
