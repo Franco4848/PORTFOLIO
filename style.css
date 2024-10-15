@@ -152,12 +152,34 @@ h3{
 
 .button--projects{
     display: flex;
-    background-color: #336666;
+    color: #000;
     padding: 20px;
     width: 300px;
     margin: auto;
-    border: none;
     border-radius: 10px;
-    margin-top: 50px;
-    
+    margin-top: 40px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #000;
+    font-size: 18px;
+    font-family: 'Sarabun';
+    transition: 0.3s ease;
+}
+.button--projects:hover{
+    background-color: #336666;
+}
+
+.link{
+    text-decoration: none;
+    color:#000;
+    margin-left: 10px;
+
+}
+.bxs-hand-up{
+    padding: 3px;
+    margin-right: 10px;
+}
+.link:hover , .bxs-hand-up:hover{
+    color: #e6f7f7;
 }
