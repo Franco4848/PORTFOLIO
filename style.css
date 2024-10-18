@@ -14,6 +14,8 @@ body {
     background: linear-gradient(to right, #f2f2f2, #e6f7f7);
     margin: 0;
     font-family: 'Sarabun';
+    padding-bottom: 0;
+
 }
 .box{
     width: 100%;
