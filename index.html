@@ -6,6 +6,7 @@
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="styleform.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +30,7 @@
                             <li class="social--items"><a href="https://www.linkedin.com/in/franco-alvarez-b4960522b/" target="_blank"><i class='bx bxl-linkedin-square'></i></li>
                             <li class="social--items"><a href="https://github.com/Franco4848" target="_blank"><i class='bx bxl-github'></i></a></li>
                             <li class="social--items"><a href="https://www.instagram.com/franco.alvarez____/" target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
-                            <li class="social--items"><a href="" target="_blank"><i class='bx bxs-contact' ></i></a></li>
+                            <li class="social--items"><a href="#contact" ><i class='bx bxs-contact' ></i></a></li>
                         </ul>               
                     </div>
                 </div>
@@ -108,9 +109,43 @@
                 <p class="projectDescription">Descripcion</p>
             </div>
         </div>
-
-
+        <div class="section3">
+        <form action="https://formsubmit.co/francoalvarez4848@gmail.com" method="POST">
+            <h2 id="contact"> Formulario de contacto</h2>
+                <fieldset>
+                        <legend >INFORMACIÓN</legend>
+    
+                        <div class="form_input">
+                            <label>Nombre
+                                <input  type="nombre" placeholder="Juan Alvarez" name="name">
+                            </label>
+                        </div>
+    
+                        <div class="form_input">
+                            <label>Email
+                                <input  type="email" placeholder="Ejemplo@gmail.com" name="email">
+                            </label>
+                        </div>
+    
+                        <div class="form_input">
+                            <label>Asunto
+                                <input type="text" placeholder="El asunto de tu mensaje" name="Asunto" >
+                            </label>
+                        </div>
+                        <div class="form_input">
+                            <label>Mensaje
+                                <textarea  rows="8" placeholder="Deja tu mensaje..." name="messaje"></textarea>
+                            </label>
+                        </div>
+                        <div class="form_input">
+                            <button class="send-button" type="submit">Enviar</button>
+                        </div>
+            </fieldset>
+        </form>
+        <p></p>
+</div>
 
     </div>
+
 </body>
 </html>

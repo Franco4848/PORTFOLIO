@@ -1,0 +1,106 @@
+
+form{
+    margin-bottom: 0 ;
+}
+.section3{
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    padding: 10px;
+    margin-bottom: 0;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 1.6em;
+    font-family: 'Sarabun';
+
+
+}
+
+form{
+    font-family: 'Sarabun';
+    background-color: transparent ;
+    padding: 20px 0px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 0 0 50px #fff2;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    
+
+}
+
+.form_input{
+    padding: 6px 20px;
+}
+
+input, textarea, select{
+    font-family: inherit;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-left: 2px solid #666;
+    border-top: 2px solid #666;
+    padding: 6px 8px;
+    box-shadow: 0 0 15px #0005;
+    background: transparent;
+    border-radius: 4px;
+    color: #eee;
+}
+
+option{
+    background-color: #222;
+}
+textarea{
+    min-width: 100%;
+    resize: vertical; /* Para que se pueda desplazar solo de forma vertical*/
+    /* resize: none; para que el tamaño del cuadro se quede de forma predeterminada */
+    min-height: 102px;
+    max-height: 200px;
+}
+
+p{
+    margin: auto;
+    padding: 20px;
+}
+
+label{
+    font-size: 0.88em;
+    line-height: 2;
+}
+
+.checkbox{
+    width:auto;
+    height: 12px;
+    
+}
+
+fieldset{
+    margin: 0 20px;
+    padding: 8px 6px 20px 6px;
+    border: 1px solid #777;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+legend{
+    padding: 0 6px;
+    color: #777;
+}
+.send-button{
+    font-family: inherit;
+    width: 100%;
+    padding: 6px 8px;
+    box-shadow: 0 0 15px #0005;
+    background: transparent;
+    border-radius: 4px;
+    color: #eee;
+    border: none;
+    border-left: 2px solid #666;
+    border-top: 2px solid #666;
+}
