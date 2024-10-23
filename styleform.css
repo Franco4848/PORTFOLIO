@@ -22,6 +22,7 @@ h2{
     padding: 10px;
     font-size: 2.0em;
     font-family: 'Lola'; 
+    letter-spacing: 3px;
 
 
 }
@@ -56,6 +57,7 @@ input, textarea, select{
     background: transparent;
     border-radius: 4px;
     color: #eee;
+
 }
 
 option{
@@ -67,6 +69,7 @@ textarea{
     /* resize: none; para que el tamaño del cuadro se quede de forma predeterminada */
     min-height: 102px;
     max-height: 200px;
+
 }
 
 .relleno{
@@ -77,6 +80,8 @@ textarea{
 label{
     font-size: 0.88em;
     line-height: 2;
+    letter-spacing: 2px;
+
 }
 
 .checkbox{
@@ -95,6 +100,8 @@ fieldset{
 legend{
     padding: 0 6px;
     color: #777;
+    letter-spacing: 2px;
+
 }
 .send-button{
     font-family: inherit;
@@ -107,4 +114,8 @@ legend{
     border: none;
     border-left: 2px solid #666;
     border-top: 2px solid #666;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Poppins';
+    cursor: pointer;
 }
