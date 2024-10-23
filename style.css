@@ -114,7 +114,9 @@ h3{
     font-family: 'Poppins';
     font-weight: 300;
     width: 80%;
-    box-shadow: 0 0 7px #58a5a5;
+    box-shadow: 0 0 7px #090c0c;
+
+
 }
 .downloadcv:hover {
     background-color: #72532a;
@@ -191,9 +193,7 @@ h3{
     font-family: 'Poppins';
     font-weight: 300;
     transition: 0.3s ease;
-    box-shadow: 0 0 7px #58a5a5;
-
-    ;
+    box-shadow: 0 0 7px #090c0c;
 }
 .bxs-hand-up{
     padding: 3px;
