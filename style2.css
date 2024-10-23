@@ -6,6 +6,8 @@
     color: #FFF;
     height: auto;
     padding-bottom: 0;
+    font-family: 'Sarabun'; 
+
 
 }
 .projectLink{
@@ -17,6 +19,7 @@
     transform: scale(1.1);
 }
 .title--myprojects{
+    font-family: 'Sarabun'; 
     text-align: center;
     padding: 20px;
 }

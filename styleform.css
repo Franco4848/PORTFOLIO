@@ -2,12 +2,12 @@
 form{
     margin-bottom: 0 ;
 }
-.section3{
-    width: 100%;
-    height: auto;
-    background-color: #222;
-    padding: 10px;
-    margin-bottom: 0;
+.boxtres{
+    background-color: #6c4a37;
+    background: linear-gradient(135deg, #402d21 30%, #845c45 100%);
+
+
+    padding-top: 10px;
 }
 h2{
     text-align: center;
@@ -17,7 +17,7 @@ h2{
     text-transform: uppercase;
     padding: 10px;
     font-size: 1.6em;
-    font-family: 'Sarabun';
+    font-family: 'Sarabun'; 
 
 
 }
@@ -65,7 +65,7 @@ textarea{
     max-height: 200px;
 }
 
-p{
+.relleno{
     margin: auto;
     padding: 20px;
 }
