@@ -23,24 +23,27 @@
                 <p class="description">Soy estudiante de desarrollo de software con un interés especial en el <b>backend</b>. Aunque estoy comenzando mi carrera, me apasiona la resolución de problemas y la creación de soluciones eficientes que aporten valor en cualquier área de la vida.</p>
             </div>
             <div class="img-button-conteiner">
+            <div class="tooltip" id="tooltip"></div>
+
                 <div class="img--conteiner">
                     <img class="img--principal" src="/img/perfil.png">
                     <div class="social--conteiner">
                         <ul class="social--list">
-                            <li class="social--items"><a href="https://www.linkedin.com/in/franco-alvarez-b4960522b/" target="_blank"><i class='bx bxl-linkedin-square'></i></li>
-                            <li class="social--items"><a href="https://github.com/Franco4848" target="_blank"><i class='bx bxl-github'></i></a></li>
-                            <li class="social--items"><a href="https://www.instagram.com/franco.alvarez____/" target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
-                            <li class="social--items"><a href="#contact" ><i class='bx bxs-contact' ></i></a></li>
+                            <li class="social--items" data-tooltip="Mi Linkedin"><a href="https://www.linkedin.com/in/franco-alvarez-b4960522b/" target="_blank"><i class='bx bxl-linkedin-square'></i></li>
+                            <li class="social--items" data-tooltip="Mi Github"><a href="https://github.com/Franco4848" target="_blank"><i class='bx bxl-github'></i></a></li>
+                            <li class="social--items"data-tooltip="Mi Instagram"><a href="https://www.instagram.com/franco.alvarez____/" target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
+                            <li class="social--items" data-tooltip="Contact Me!"><a href="#contact" ><i class='bx bxs-contact' ></i></a></li>
                         </ul>               
                     </div>
                 </div>
                 <button class="downloadcv"><i class='bx bx-download'></i>Download CV</button>
             </div>
         </div>
+
         <div class="button--projects"><a class="link" href="#myProject"><i class='bx bxs-hand-up'></i>My Projects </a></div>
     </div>
 
-    
+    <!-- SECCION MY PROJECTS -->
     <div class="box--myprojects">
         <h2 class="title--myprojects" id="myProject">My Projects</h2>
         
@@ -146,6 +149,6 @@
 </div>
 
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>

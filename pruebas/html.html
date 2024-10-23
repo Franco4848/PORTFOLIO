@@ -6,11 +6,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
 </head>
+
 <body>
-    <h1>PUEBAS</h1>
-    <ul>
-        <li>LOGO</li>
-    </ul>
+   <!-- Botones -->
+<div class="button--projects" data-tooltip="Aquí puedes ver mis proyectos destacados.">
+    <a class="link" href="#myProject"><i class='bx bxs-hand-up'></i>My Projects</a>
+</div>
+
+<div class="button--projects" data-tooltip="Descarga mi CV aquí.">
+    <a class="link" href="#downloadCV"><i class='bx bx-download'></i>Download CV</a>
+</div>
+
+<div class="button--projects" data-tooltip="Contacta conmigo para más información.">
+    <a class="link" href="#contact"><i class='bx bxs-contact'></i>Contact</a>
+</div>
+
+<!-- Tooltip único -->
+<div id="tooltip" class="tooltip">Texto de tooltip aquí</div>
+ <div class="button--projects">
+        <a class="link" href="#myProject"><i class='bx bxs-hand-up'></i>My Projects</a>
+        <div class="tooltip">Aquí puedes ver mis proyectos destacados.</div>
+    </div>
+    
+    <div class="button--projects">
+        <a class="link" href="#contact"><i class='bx bxs-contact'></i>Contact</a>
+        <div class="tooltip">Contacta conmigo para más información.</div>
+    </div>
+    
+    <script src="js.js"></script>
     
 </body>
 </html>
